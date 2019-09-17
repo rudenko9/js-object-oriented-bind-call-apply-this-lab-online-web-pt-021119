@@ -1,1 +1,3 @@
-
+function justInvoke(fn) {
+  
+}

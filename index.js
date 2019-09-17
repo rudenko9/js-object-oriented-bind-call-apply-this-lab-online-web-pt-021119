@@ -6,4 +6,6 @@ function justInvoke(fn) {
    return fn.call(thisValue, arg);
  };
  
- function 
+ function setThisWithApply(fn, thisValue, args){
+   return fr.apply(thisValue, [args]);
+ }
